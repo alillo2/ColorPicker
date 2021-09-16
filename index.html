@@ -7,15 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
-    
-    <header>
-    
-    <h2>Color Picker</h2>
-    
-    </header>
-    <body>
 
-	<h2>Color Picker</h2>
+  <body>
+
+	
 	
 	
     
@@ -26,11 +21,25 @@
     
     <div class="square_canvas"></div>
     <div class="inpt">
+        <p>Enter numbers 0 - 1:</p>
         <input type="number" id="red">
+        <input value="0" type="range" min="0" max="255" id="redSlide"></input>
+        <br>
         <input type="number" id="green">
+        <input value="0" type="range" min="0" max="255" id="greenSlide"></input>
+        <br>
         <input type="number" id="blue">
+        <input value="0" type="range" min="0" max="255" id="blueSlide"></input>
+        <p></p>
+        
     </div>
     <script src="js/colorpicker.js"></script>
+    
+    <pre class="output">
+    <script>
+       calculatedOutput();
+    </script>
+    </pre>
 	
-</body>
+  </body>
 </html>
