@@ -43,6 +43,8 @@ let btn = document.createElement("button");
     luminance = luminance / 255;
         alert(" rho = " + rho.toFixed(2) + " gamma = " + gamma.toFixed(2) + " beta = " + beta.toFixed(2) + " luminance = " + luminance);
 };
+
+//Adds button to index.html
 document.body.appendChild(btn);
 
 
